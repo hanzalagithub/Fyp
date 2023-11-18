@@ -1,0 +1,60 @@
+.form {
+  width: 100%;
+  max-width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background-image: url('../assets/OIP1.jpeg'); */
+  /* background-size: 1dvw 1dvh; */
+  background-position-x: 5rem;
+  background-position-y: 5rem ;
+  background-repeat: no-repeat;
+  position: relative;
+  /* background-color: rgba(255, 255, 255, 0.8); Adjust the alpha value for opacity */
+}
+
+/* Rest of your existing styles */
+
+
+
+.control {
+  margin-bottom: 0.5rem;
+}
+
+.control label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: #353336;
+  display: block;
+}
+
+.control input {
+  display: block;
+  font: inherit;
+  width: 100%;
+  border-radius: 4px;
+  border: 1px solid green;
+  padding: 0.25rem;
+  background-color: #f7f0fa;
+}
+
+.action {
+  margin-top: 1.5rem;
+}
+
+.action button {
+  font: inherit;
+  cursor: pointer;
+  padding: 0.5rem 1.5rem;
+  border-radius: 4px;
+  background-color: green;
+  color: white;
+  border: 1px solid green;
+}
+
+.action button:hover {
+  background-color: rgb(59, 214, 59);
+  border-color: green;
+}
