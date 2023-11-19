@@ -66,7 +66,7 @@ fetch(url, {
       new Date().getTime() + +data.expiresIn * 1000
     );
     authCtx.login(data.idToken, expirationTime.toISOString());
-      navigate('/'); 
+      navigate('/Signin'); 
   })
   .catch((err) => {
     alert(err.message);
