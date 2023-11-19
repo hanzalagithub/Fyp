@@ -23,14 +23,14 @@ const App = () => {
         <Routes>
           {/* public routes */}
             
-                <Route path="/Signin" element={<SignIn />} /> 
+                <Route index element={<SignIn />} /> 
 
                 <Route path="/Signup" element={<Signup />} />
                 <Route path="/Forget" element={<ForgetPass />} />
             {/* private routes */}
             {authCtx.isLoggedIn && (
                     <Route element={<RootLayout />}>
-                    <Route index element={<CameraView />} />
+                    <Route path="/camera" element={<CameraView />} />
                     
                     <Route path="/real-time" element={<RealtimeDisplay />} />
                     <Route path="/real-time/camera1" element={<RealtimeDisplayOne />} />
